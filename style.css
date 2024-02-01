@@ -1,7 +1,23 @@
-
+:root{
+    --bg-color: #fff;
+    --text-color:#000 ;
+    --span-text-color: rgb(131, 25, 211);
+    --btn-background: rgb(131, 25, 211);
+}
+:root[dark-mode-theme]{
+    --bg-color:#0e172a ;
+    --text-color:rgb(248, 245, 245) ;
+    --span-text-color: rgb(160, 38, 164);
+    --btn-background:rgb(158, 31, 162);
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.1s ease-in-out;
+}
 /* home page */
 #website{
-    color:rgb(131, 25, 211);
+    color:var(--span-text-color);
 }
 h2{
     text-align: center;
@@ -25,14 +41,14 @@ h2{
     justify-content:space-evenly;
 }
 .eachImg{
-    margin-bottom:0.5em;
+    margin-bottom:1em;
 }
 .buttons{
     display:flex;
     justify-content:center;
 }
 .btn{
-    background-color:rgb(131, 25, 211);
+    background-color:var(--btn-background);
     border:none;
     border-radius:0.5em;
     padding:0.5em;
@@ -52,10 +68,6 @@ h2{
 }
 .moon-icon:hover{
     cursor:pointer;
-}
-.dark-mode{
-    background-color: #0e172a;
-    color: white;
 }
 
 /* page One */
