@@ -3,12 +3,14 @@
     --text-color:#000 ;
     --span-text-color: rgb(131, 25, 211);
     --btn-background: rgb(131, 25, 211);
+    --form-info-background: rgba(120,120,130, 0.5);
 }
 :root[dark-mode-theme]{
     --bg-color:#0e172a ;
     --text-color:rgb(248, 245, 245) ;
     --span-text-color: rgb(160, 38, 164);
     --btn-background:rgb(158, 31, 162);
+    --form-info-background: rgba(73, 73, 76, 0.5);
 }
 body{
     background-color: var(--bg-color);
@@ -33,6 +35,7 @@ h2{
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom:1em;
+    background-color: var(--form-info-background);
 
 }
 .images{
@@ -107,7 +110,19 @@ h2{
 }
 
 /* page 2 */
+.form-info-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-values{
+    background-color: rgba(120,120,130, 0.5);
+    margin-bottom: 0.8em;
+    padding: 0em 2em 0em 2em;
+    border-radius:1em;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
 .para{
-    text-align: center;
     font-size:1.3em;
 }
+    
