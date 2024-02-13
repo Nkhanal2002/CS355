@@ -125,4 +125,27 @@ h2{
 .para{
     font-size:1.3em;
 }
-    
+/* For dogs.html page */
+#heading2{
+    color: var(--span-text-color);
+}
+.sub-container{
+    display: flex;
+    justify-content: center;
+}
+#searchBox{
+    padding:0.5em;
+    margin-right:0.4em;
+}
+.showImgBtn{
+    color:white;
+}
+.dogs-Images{
+    display:flex;
+    justify-content: center;
+    margin: 1em 0em 1em 0em;
+}
+.dImg{
+    width:20%;
+    border-radius:1em;
+}
