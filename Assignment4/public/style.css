@@ -1,0 +1,73 @@
+:root{
+    --bodybg-color: #f5fafa;
+    --text-color:#000 ;
+    --span-text-color: rgb(131, 25, 211);
+    --btn-background: rgb(131, 25, 211);
+    --sub-div-background: #f5fafa;
+}
+:root[dark-mode-theme]{
+    --bodybg-color:#0e172a ;
+    --text-color:rgb(248, 245, 245) ;
+    --span-text-color: rgb(160, 38, 164);
+    --btn-background:rgb(158, 31, 162);
+    --sub-div-background: rgba(60, 60, 61, 0.5)
+}
+
+body{
+    background-color: var(--bodybg-color);
+    color: var(--text-color);
+    transition: background-color 0.1s ease-in-out;
+}
+h2{
+    text-align: center;
+}
+
+#heading2{
+    color: var(--span-text-color);
+}
+.sub-container{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width:20%;
+    font-size:medium;
+}
+#searchBox{
+    padding:0.5em;
+    margin-right:0.4em;
+}
+.showImgBtn{
+    color:white;
+    background-color: var(--btn-background);
+    border-radius: 0.5em;
+    border:none;
+}
+.img-container{
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width:50vw;
+    height:40vh;
+    border-radius:1em;
+    border:none;
+    box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    align-items:center;
+    background-color: var(--sub-div-background);
+
+}
+.dImg{
+    margin:2px 2px;
+    width:45%;
+    border-radius:0.3em;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border:none;
+}
+.mode{
+    font-size:1.5em;
+    position:absolute;
+    right:0;
+    top:0;
+    margin: 0.3em;
+}
