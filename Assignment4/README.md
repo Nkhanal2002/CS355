@@ -1,6 +1,6 @@
 # Assignment4
 
-## Install all the Dependencies
+## Install all the dependencies
 ```bash
 npm install
 ```
