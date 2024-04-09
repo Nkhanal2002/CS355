@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para{
+    font-size: 1.5em;
+    font-weight:bold;
+}
+.iframe-box{
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 0.5em;
+
+}
+

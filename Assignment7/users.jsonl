@@ -1,0 +1,5 @@
+{"_id":"Mark","password":"$2b$10$ics3YCY34B7qGBP/PelHBetaGsDBBfBUzOmHnrFAVsqL6jC0FyHJ.","email":"mark@gmail.com","name":"Mark","authToken":"7598ea0d492678f3067a78d365749c8c"}
+{"_id":"Mark","password":"$2b$10$ics3YCY34B7qGBP/PelHBetaGsDBBfBUzOmHnrFAVsqL6jC0FyHJ.","email":"mark@gmail.com","name":"Mark","authToken":"82e81ce0db6d02f306151f0a04596c8835e9ab452ae33781c3f413c849e8"}
+{"$$deleted":true,"_id":"Mark"}
+{"_id":"Mark","name":"Mark","email":"mark@gmail.com","password":"$2b$10$WP7BQSzmzO2DaCLi.BR80eq6plCbmu7CLTTu92k4Av5FcXPbEDZQu","authToken":"e8164222d968a55c19b8d1ef5e75391d431901af8ec01d8a5ab7b6571051"}
+{"_id":"Barry","name":"Barry","email":"barry@gmail.com","password":"$2b$10$lTB7Sj6apd3ts4VcV0poa.YkA9QqUu8RiU4H2SBWsnx7bJN2R42qa","authToken":"54e096e748739a8bc717175ed02d7dfd675f8dd0c52622c5a1b7bb0b2bd9"}
